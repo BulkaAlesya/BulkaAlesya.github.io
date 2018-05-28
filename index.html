@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ВестТрансЛайн</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <script src="js/slider.js"></script>
+  <script type="text/javascript"></script>
+  <script type="text/javascript"></script>
+  <script src="slick/slick.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbAfZXBQOTlx6F-xGQIjPM_AvcHKfKDwM&callback=initMap">
+  </script>
+<script>
+  $(document).ready(function(){
+    $('.your-class').slick();})
+  </script>
+  <script src="js/options.js"></script>
+  <script type='text/javascript'>function init_map(){var myOptions = {zoom:13,center:new google.maps.LatLng(53.93930719999999,27.48258809999993),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(53.93930719999999,27.48258809999993)});infowindow = new google.maps.InfoWindow({content:'<strong>Беларусь, г. Минск,  ул. Пионерская, 34</strong><br>Беларусь, г. Минск,  ул. Пионерская, 34<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+
+</head>
+<body>
+<div id="content">
+  <img id="logo" src="img/logo_white_300dpi_bez_slogana.jpg" height="117" width="350"/>
+  <div id="logoText"> <strong>Профессиональные решения логистических задач </strong></div>
+  <ul id="languages">
+    <li class="langChoise">рус</li>
+    <li class="langChoise">de</li>
+    <li class="langChoise">eng</li>
+  </ul>
+
+   <div id="menuList">
+      <li class="listItem"><a href="index.html" title="О компании"><strong>О компании</strong></a></li>
+      <li class="listItem"><a href="Service.html" title="Услуги"><strong>Услуги</strong></a></li>
+      <li class="listItem"><a href="information.html" title="Тнформация"><strong>Информация</strong></a></li>
+      <li class="listItem"><a href="Contacts.html" title="Контакты"><strong>Контакты</strong></a></li>
+    </div>
+  <div id="textNumb"> <span class="tf">25 лет</span>  на рынке <div id="second">международных грузоперевозок</div></div>
+  <button id="stavka"> Запросить ставку</button>
+  <div id="blox"> <div class="B"> 560</div> <div class="M">штатных <br>сотрудников</div> <div class="S">в Беларуси и России</div></div>
+  <div id="secondBlock"> <div class="B"> 250</div> <div class="S_1">тенторированных </div> <div class="M_1"><br>автопоездов</div> <div class="S_11">соответствует стандарту </div></div>
+  <div id="thirdBlock"> <div class="B"> 1000</div> <div class="M_2"> перевозок</div> <div class="S_2">в месяц</div></div>
+
+  <div id="magix"><div class="your-class">
+    <div ><img src="img/s1200.jpeg" width="100%" height="600px" title="картинки"></div>
+    <div><img
+      src="img/stock-vector-volume-geometric-shape-d-crystal-abstraction-low-polygons-object-vector-design-form-632774954.jpg"
+      height="600" width="100%" title="картинки"/></div>
+    <div><img src="img/daf-xf-105-container-truck-hd-wallpaper-512641.jpg"  height="600" width="100%" title="картинки"/></div>
+  </div>
+  </div>
+  <footer>
+    <div style='height:300px;width:500px;'>
+      <div id='gmap_canvas' style='height:285px;width:400px;'>
+      </div>
+      <div><small><a href="embedgooglemaps.com/ru"></a></small>
+      </div>
+      <div>
+        <small><a href="https://mrpromokod.ru/"></a></small>
+      </div>
+      <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+    <p id="telPrefix">+375  17</p><p id="telNumber">202-45-45</p>
+    <form action="ПОИСК" method="post" class="search">
+      <input type="search" name="" placeholder="поиск" class="input" />
+      <input type="submit" name="" value="" class="submit" />
+      <p>© 2018 «WestTransLine»
+        <br>
+        Профессиональные решения логистических задач</p>
+
+    </form>
+  </footer>
+ </div>
+  </div>
+</div>
+</body>
+</html>

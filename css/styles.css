@@ -1,0 +1,456 @@
+body{
+  background-color: #d7dace;
+  min-width: 560px;
+}
+#content{
+  width: 85%;
+  height: 1500px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: white;
+
+}
+#logo{
+  margin: 20px;
+  margin-left: 70px;
+  float: left;
+}
+#logoText{
+  position: absolute;
+  top: 140px;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #1f3196;
+  letter-spacing: 0.15em;
+  float: left;
+  font-size: 1.5em;
+  margin-left: 5%;
+}
+#languages{
+  position: absolute;
+  top: 50px;
+  left: 75%;
+}
+.langChoise{
+  display: inline-block;
+  width: 35px;
+  height: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #044a96;
+  font-size: 1em;
+  padding-left: 3px;
+}
+.langChoise:hover{
+  color: orange;
+}
+#menuList{
+  width: 90%;
+  height: 50px;
+  background-color: #1f3196;
+  margin-left: 4%;
+  margin-right: 20%;
+  position: relative;
+  top: 30px;
+  clear: both;
+}
+.listItem{
+  position: relative;
+  display: inline-block;
+  text-decoration: underline;
+  color: white;
+  font-size: 1.2em;
+  top: 8px;
+  margin: 6px 15px;
+  float: left;
+  letter-spacing: 0.1em;
+}
+a{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+#menuList::after{
+  display: inline-block;
+  width: 30%;
+  position: absolute;
+  right: 0%;
+  background-color: deepskyblue;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+  content: 'Личный кабинет';
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+.tf{
+  margin-right:  10px;
+  margin-left: 50px;
+  margin-top: -17px;
+  color: deepskyblue;
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', sans-serif;
+  float: left;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#textNumb{
+  position: relative;
+  top: 76px;
+  font-size: 2em;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #000000;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+}
+#second{
+  position: absolute;
+  top: 32px;
+  left: 4.2% ;
+}
+#stavka{
+  width: 200px;
+  height: 50px;
+  background-color:deepskyblue;
+  margin-left: 77%;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-size: 1.2em;
+}
+#blox{
+  position: absolute;
+  left: 12%;
+  top:0;
+}
+.B{
+  position: absolute;
+  top: 400px;
+  left: 17%;
+  color: orange;
+  font-size: 6.5em;
+  font-weight: bold;
+  margin-right: 20px;
+  letter-spacing: -0.1em;
+}
+.M{
+  position: absolute;
+  top: 415px;
+  left: 140px;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Calibri;
+}
+.S{
+  position: absolute;
+  top: 475px;
+  left: 140px;
+  color: black;
+  font-size: 0.8em;
+  font-family: Calibri;
+}
+#secondBlock{
+  position: absolute;
+  left: 40%;
+  top:0;
+}
+.M_1{
+  position: absolute;
+  top: 415px;
+  left: 140px;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Calibri;
+}
+.S_1{
+  position: absolute;
+  top: 425px;
+  left: 140px;
+  color: black;
+  font-size: 0.8em;
+  font-family: Calibri;
+}
+.S_11{
+  position: absolute;
+  top: 470px;
+  left: 140px;
+  color: black;
+  font-size: 0.8em;
+  font-family: Calibri;
+}
+#thirdBlock{
+  position: absolute;
+  left: 65%;
+  top:0;
+}
+.M_2{
+  position: absolute;
+  top: 415px;
+  left: 170px;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: Calibri;
+}
+.S_2{
+  position: absolute;
+  top: 445px;
+  left: 180px;
+  color: black;
+  font-size: 0.8em;
+  font-family: Calibri;
+}
+.your-class{
+  position: absolute;
+  background-color: #a1a1a1;
+  height: 600px;
+  width: 90%;
+  left:5%;
+
+}
+#magix{
+  position: absolute;
+  top: 550px;
+  width: 84.2%;
+  background-color: rgba(189, 194, 194, 0.5);
+}
+footer{
+  position: relative;
+  top: 902px;
+  height: 300px;
+  background-color: rgba(230, 229, 226, 0.4);
+}
+#gmap_canvas {
+  height: 500px;
+  width: 100%;
+  margin-top: 7px;
+  margin-left: 10%;
+}
+.search {
+  /* устанавливаем необходимую ширину формы в зависимости от дизайна
+  ** форма без проблем растягивается */
+  width: 35%;
+
+  /* кнопку отправки будем позиционировать абсолютно,
+  ** поэтому необходимо это свойство */
+  position: relative;
+}
+
+.search input {
+  /* отключаем бордюры у инпутов */
+  border: none;
+}
+
+/* стили для поля ввода */
+.search .input {
+  /* растягиваем поле ввода на всю ширину формы */
+  width: 100%;
+
+  /* за счет верхнего (8px) и нижнего (9px) внутренних отступов
+  ** регулируем высоту формы
+  ** внутренний отступ справа (37px) делаем больше левого,
+  ** т.к. там будет размещена кнопка отправки	*/
+  padding: 8px 37px 9px 15px;
+
+  /* чтобы ширина поля ввода (100%) включала в себя внутренние отступы */
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* добавляем внутренние тени */
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1), inset 0 1px 2px rgba(0,0,0,0.3);
+
+  /* закругляем углы */
+  border-radius: 20px;
+
+  background: #EEE;
+  font: 13px Tahoma, Arial, sans-serif;
+  color: #555;
+  outline: none;
+}
+
+/* меняем оформление поля ввода при фокусе */
+.search .input:focus {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2), inset 0 1px 2px rgba(0,0,0,0.4);
+  background: #E8E8E8;
+  color: #333;
+}
+
+/* оформляем кнопку отправки */
+.search .submit {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  width: 37px;
+  height: 100%;
+  cursor: pointer;
+  background: url(https://lh4.googleusercontent.com/-b-5aBxcxarY/UAfFW9lVyjI/AAAAAAAABUg/gQtEXuPuIds/s13/go.png) 50% no-repeat;
+  opacity: 0.5;
+}
+
+.search .submit:hover {
+  opacity: 0.8;
+}
+input[type="search"] {
+  -webkit-appearance: none;
+}
+form{
+  position: absolute;
+  left: 60%;
+  top: -145px;
+}
+#telPrefix{
+  position: absolute;
+  color: gray;
+  top: 100px;
+  left: 65%;
+  font-size: 1.4em;
+}
+#telNumber{
+  position: absolute;
+  color: black;
+  top: 75px;
+  left: 72%;
+  font-size: 2.4em;
+  margin-left: 10px;
+}
+@media (max-width: 1100px) {
+  #content{
+    width: 100%;
+  }
+  #blox{
+    left: 15%;
+  }
+  #secondBlock{
+    left: 42%;
+  }
+  #logoText{
+    top: 140px;
+    letter-spacing: 0.15em;
+    margin-left: 5%;
+
+  }
+  #stavka{
+    margin-left: 64%;
+    font-size: 1em;
+  }
+  #magix{
+    top: 600px;
+    width: 98.4%;
+  }
+  #thirdBlock{
+    left: 65%;
+  }
+
+  #menuList::after{
+    display: inline-block;
+    width: 22%;
+    position: absolute;
+    right: 0%;
+    background-color: deepskyblue;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    content: 'Личный кабинет';
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+  }
+  .listItem{
+    font-size: 1em;
+  }
+  .M_2{
+    top: 495px;
+    left: 10px;
+  }
+  .S_2{
+    top: 520px;
+    left: 10px;
+  }
+
+  .M_1{
+    top: 480px;
+    left: 10px;
+  }
+  .S_1{
+    top: 500px;
+    left: 10px;
+  }
+  .S_11{
+    top: 535px;
+    left: 10px;
+  }
+
+
+  .M{
+    top: 490px;
+    left: 10px;
+  }
+  .S{
+    top: 540px;
+    left: 10px;
+  }
+  #telPrefix{
+    left: 63%;
+  }
+  .search .submit{
+    top: -35px;
+  }
+  .your-class{
+    height: 400px;
+  }
+  #magix img{
+    height: 400px;
+  }
+}
+@media (max-width: 800px){
+  #languages{
+    display: none;
+  }
+  #blox{
+    display: none;
+  }
+  #secondBlock{
+    display: none;
+  }
+  #logoText{
+    font-size: 1em;
+  }
+  #stavka{
+    margin-top: 140px;
+    margin-left: 35%;
+  }
+  #magix{
+    top: 450px;
+    width: 98%;
+  }
+  #thirdBlock{
+    display: none;
+  }
+  #menuList{
+    margin-left: 0;
+    width: 100%;
+  }
+  footer{
+    top: 764px;
+  }
+  .listItem{
+    margin: 10px;
+  }
+  #gmap_canvas{
+    display: none;
+  }
+  #telPrefix{
+    left: 60%;
+  }
+  .search .submit{
+    top: -35px;
+  }
+  .your-class{
+    height: 400px;
+  }
+  #magix img{
+    height: 400px;
+  }
+}

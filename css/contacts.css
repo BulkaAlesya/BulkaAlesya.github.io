@@ -1,0 +1,96 @@
+body{
+  min-width: 590px;
+}
+.contact{
+  position: relative;
+  top: 180px;
+  width: 40%;
+  left: 10%;
+  margin-bottom: 100px;
+  border: solid 1px;
+  padding: 7px;
+  border-radius: 20px;
+}
+h1{
+  position: absolute;
+  top: 260px;
+  left: 20%;
+  font-size: 3em;
+}
+h2{
+  font-size: 2em;
+}
+.position{
+  font-weight: bold;
+}
+.value{
+  color: #253b8b;
+  text-decoration: underline;
+}
+#bloc{
+  position: absolute;
+  top: -380px;
+  left: 30%;
+
+}
+.M_3{
+  position: absolute;
+  top: 475px;
+  left: 0px;
+  color: black;
+  font-size: 1.7em;
+  font-weight: bold;
+  font-family: Calibri;
+  width: 220px;
+
+}
+.stripe{
+  position: absolute;
+  right: 18%;
+  top: 255px;
+  width: 23%;
+  background-color: rgba(243, 219, 40, 0.2);
+  height: 1260px;
+}
+footer{
+  top: 303px;
+}
+@media (max-width: 1100px){
+  #content{
+    width: 100%;
+  }
+  .stripe{
+    right: 10%;
+    top: 255px;
+    width: 28%;
+    background-color: rgba(243, 219, 40, 0.2);
+    height: 1260px;
+  }
+  #bloc{
+    left: 12%;
+  }
+  #menuList::after{
+    width: 30%;
+    }
+  footer{
+    top:270px
+  }
+
+}
+@media (max-width: 800px){
+  #content{
+    width: 100%;
+  }
+  .stripe{
+   display: none;
+  }
+  footer{
+    top: 300px;
+  }
+  .contact{
+    width: 70%;
+  }
+  #menuList::after{
+    width: 20%;
+  }
+}
