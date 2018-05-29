@@ -79,6 +79,10 @@ footer{
   #menuList::after{
     width: 30%;
     }
+
+  .search .submit{
+    top: -37px;
+  }
   footer{
     top: 130px
   }
